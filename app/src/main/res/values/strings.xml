@@ -13,6 +13,62 @@
     <!-- Category name for Parks [CHAR LIMIT=20] -->
     <string name="category_parks">Parks</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Name and Details of Attractions -->
+    <string name = "attraction_name_1">Beehive House</string>
+    <string name = "attraction_details_1">One of the official residences of Brigham Young</string>
+    <string name = "attraction_name_2">City Creek Center</string>
+    <string name = "attraction_details_2">Upscale open-air shopping center</string>
+    <string name = "attraction_name_3">Gilgal Sculpture Garden</string>
+    <string name = "attraction_details_3">Whimsical, off-the-beaten-path public green space exhibiting original statues and engravings</string>
+    <string name = "attraction_name_4">Red Butte Garden and Arboretum</string>
+    <string name = "attraction_details_4">A botanical garden, arboretum, and amphitheatre</string>
+    <string name = "attraction_name_5">Tabernacle</string>
+    <string name = "attraction_details_5">World-famous Mormon Tabernacle Choir</string>
+    <string name = "attraction_name_6">Temple Square</string>
+    <string name = "attraction_details_6">The Church of Jesus Christ of Latter-day Saints</string>
+    <string name = "attraction_name_7">Utah State Capitol</string>
+    <string name = "attraction_details_7">"The house of government for the U.S. state of Utah</string>
+
+    <!-- Name and Details of Restaurants -->
+    <string name ="restaurant_name_1">Bombay House</string>
+    <string name ="restaurant_details_1">Utah\'s Best Indian Restaurant</string>
+    <string name ="restaurant_name_2">Caffé Molise</string>
+    <string name ="restaurant_details_2">Art-filled trattoria serving Northern Italian fare and unique wines</string>
+    <string name ="restaurant_name_3">Nauvoo Cafe</string>
+    <string name ="restaurant_details_3">Offering breakfast, sandwiches, pot pies and more</string>
+    <string name ="restaurant_name_4">P.F. Chang\'s China Bistro</string>
+    <string name ="restaurant_details_4">Authentic Chinese food and Asian Cuisine</string>
+    <string name ="restaurant_name_5">Red Iguana</string>
+    <string name ="restaurant_details_5">Killer Mexican Food That\'s Worth The Wait!</string>
+    <string name ="restaurant_name_6">Takashi</string>
+    <string name ="restaurant_details_6">The best sushi restaurant in Salt Lake City!</string>
+
+    <!-- Name and Details of Museums -->
+    <string name = "museum_name_1">Church History Museum</string>
+    <string name = "museum_details_1">The Church of Jesus Christ of Latter-day Saints</string>
+    <string name = "museum_name_2">Clark Planetarium</string>
+    <string name = "museum_details_2">Science museum and planetarium</string>
+    <string name = "museum_name_3">Discovery Gateway</string>
+    <string name = "museum_details_3">Interactive, hands-on children\'s museum</string>
+    <string name = "museum_name_4">Natural History Museum of Utah</string>
+    <string name = "museum_details_4">University of Utah museum\'s exhibits, collections, research, and programs</string>
+    <string name = "museum_name_5">Utah Museum of Contemporary Art</string>
+    <string name = "museum_details_5">Utah\'s only contemporary art museum</string>
+    <string name = "museum_name_6">Utah Museum of Fine Arts</string>
+    <string name = "museum_details_6">Utah\'s Passport to the World of Art</string>
+
+    <!-- Name and Details of Parks -->
+    <string name = "park_name_1">Arches National Park</string>
+    <string name = "park_details_1">Landscape of contrasting colors, landforms and textures</string>
+    <string name = "park_name_2">Bryce Canyon National Park</string>
+    <string name = "park_details_2">Known for crimson-colored hoodoos</string>
+    <string name = "park_name_3">Four Corners Monument</string>
+    <string name = "park_details_3">Marks the quadripoint where the states of Arizona, Colorado, New Mexico, and Utah meet</string>
+    <string name = "park_name_4">Glen Canyon National Recreation Area</string>
+    <string name = "park_details_4">Offers unparalleled opportunities for water-based and backcountry recreation</string>
+    <string name = "park_name_5">Monument Valley</string>
+    <string name = "park_details_5">Known for the towering sandstone buttes</string>
+    <string name = "park_name_6">Zion National Park</string>
+    <string name = "park_details_6">Distinguished by Zion Canyon\’s steep red cliffs</string>
+
 </resources>
