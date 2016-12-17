@@ -20,12 +20,12 @@ public class MuseumsFragment extends Fragment{
 
         // Create a list of words
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Church History Museum", "The Church of Jesus Christ of Latter-day Saints",R.drawable.ic_churchhistory));
-        tours.add(new Tour("Clark Planetarium", "Science museum and planetarium",R.drawable.ic_clarkplanetarium));
-        tours.add(new Tour("Discovery Gateway", "Interactive, hands-on children's museum",R.drawable.ic_discoverygateway));
-        tours.add(new Tour("Natural History Museum of Utah", "Descriptions of this University of Utah museum's exhibits, collections, research, and programs",R.drawable.ic_naturalhistory));
-        tours.add(new Tour("Utah Museum of Contemporary Art", "Utah's only contemporary art museum",R.drawable.ic_contemporaryart));
-        tours.add(new Tour("Utah Museum of Fine Arts", "Utah's Passport to the World of Art",R.drawable.ic_finearts));
+        tours.add(new Tour(getString(R.string.museum_name_1),getString(R.string.museum_details_1),R.drawable.ic_churchhistory));
+        tours.add(new Tour(getString(R.string.museum_name_2),getString(R.string.museum_details_2),R.drawable.ic_clarkplanetarium));
+        tours.add(new Tour(getString(R.string.museum_name_3),getString(R.string.museum_details_3),R.drawable.ic_discoverygateway));
+        tours.add(new Tour(getString(R.string.museum_name_4),getString(R.string.museum_details_4),R.drawable.ic_naturalhistory));
+        tours.add(new Tour(getString(R.string.museum_name_5),getString(R.string.museum_details_5),R.drawable.ic_contemporaryart));
+        tours.add(new Tour(getString(R.string.museum_name_6),getString(R.string.museum_details_6),R.drawable.ic_finearts));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

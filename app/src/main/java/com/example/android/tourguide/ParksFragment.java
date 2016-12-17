@@ -20,12 +20,12 @@ public class ParksFragment extends Fragment{
 
         // Create a list of words
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Arches National Park", "Landscape of contrasting colors, landforms and textures",R.drawable.ic_arches));
-        tours.add(new Tour("Bryce Canyon National Park", "Known for crimson-colored hoodoos",R.drawable.ic_bryce));
-        tours.add(new Tour("Four Corners Monument", "Marks the quadripoint where the states of Arizona, Colorado, New Mexico, & Utah meet",R.drawable.ic_fourcorners));
-        tours.add(new Tour("Glen Canyon National Recreation Area", "Offers unparalleled opportunities for water-based & backcountry recreation",R.drawable.ic_glencanyon));
-        tours.add(new Tour("Monument Valley", "Known for the towering sandstone buttes",R.drawable.ic_monumentvalley));
-        tours.add(new Tour("Zion National Park", "Distinguished by Zion Canyon’s steep red cliffs",R.drawable.ic_zions));
+        tours.add(new Tour(getString(R.string.park_name_1),getString(R.string.park_details_1),R.drawable.ic_arches));
+        tours.add(new Tour(getString(R.string.park_name_2),getString(R.string.park_details_2),R.drawable.ic_bryce));
+        tours.add(new Tour(getString(R.string.park_name_3),getString(R.string.park_details_3),R.drawable.ic_fourcorners));
+        tours.add(new Tour(getString(R.string.park_name_4),getString(R.string.park_details_4),R.drawable.ic_glencanyon));
+        tours.add(new Tour(getString(R.string.park_name_5),getString(R.string.park_details_5),R.drawable.ic_monumentvalley));
+        tours.add(new Tour(getString(R.string.park_name_6),getString(R.string.park_details_6),R.drawable.ic_zions));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

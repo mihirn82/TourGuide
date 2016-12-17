@@ -21,12 +21,12 @@ public class RestaurantsFragment extends Fragment{
 
         // Create a list of words
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Bombay House", "Utah's Best Indian Restaurant",R.drawable.ic_bombayhouse));
-        tours.add(new Tour("Caffé Molise", "Art-filled trattoria serving Northern Italian fare & unique wines",R.drawable.ic_caffemolise));
-        tours.add(new Tour("Nauvoo Cafe", "Offering breakfast, sandwiches, pot pies & more",R.drawable.ic_nauvoocafe));
-        tours.add(new Tour("P.F. Chang's China Bistro", "Authentic Chinese food & Asian Cuisine",R.drawable.ic_pfchangs));
-        tours.add(new Tour("Red Iguana", "Killer Mexican Food That's Worth The Wait!",R.drawable.ic_rediguana));
-        tours.add(new Tour("Takashi", "The best sushi restaurant in Salt Lake City!",R.drawable.ic_takashi));
+        tours.add(new Tour(getString(R.string.restaurant_name_1),getString(R.string.restaurant_details_1),R.drawable.ic_bombayhouse));
+        tours.add(new Tour(getString(R.string.restaurant_name_2),getString(R.string.restaurant_details_2),R.drawable.ic_caffemolise));
+        tours.add(new Tour(getString(R.string.restaurant_name_3),getString(R.string.restaurant_details_3),R.drawable.ic_nauvoocafe));
+        tours.add(new Tour(getString(R.string.restaurant_name_4),getString(R.string.restaurant_details_4),R.drawable.ic_pfchangs));
+        tours.add(new Tour(getString(R.string.restaurant_name_5),getString(R.string.restaurant_details_5),R.drawable.ic_rediguana));
+        tours.add(new Tour(getString(R.string.restaurant_name_6),getString(R.string.restaurant_details_6),R.drawable.ic_takashi));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

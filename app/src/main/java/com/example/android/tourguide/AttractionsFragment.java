@@ -21,13 +21,13 @@ public class AttractionsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Beehive House", "One of the official residences of Brigham Young",R.drawable.ic_beehivehouse));
-        tours.add(new Tour("City Creek Center", "Upscale open-air shopping center",R.drawable.ic_citycreekcenter));
-        tours.add(new Tour("Gilgal Sculpture Garden", "Whimsical, off-the-beaten-path public green space exhibiting original statues & engravings",R.drawable.ic_gilgal));
-        tours.add(new Tour("Red Butte Garden and Arboretum", "A botanical garden, arboretum, and amphitheatre",R.drawable.ic_redbuttegarden));
-        tours.add(new Tour("Tabernacle", "World-famous Mormon Tabernacle Choir",R.drawable.ic_tabernacle));
-        tours.add(new Tour("Temple Square", "The Church of Jesus Christ of Latter-day Saints",R.drawable.ic_templesquare));
-        tours.add(new Tour("Utah State Capitol", "The house of government for the U.S. state of Utah.",R.drawable.ic_capitol));
+        tours.add(new Tour(getString(R.string.attraction_name_1),getString(R.string.attraction_details_1),R.drawable.ic_beehivehouse));
+        tours.add(new Tour(getString(R.string.attraction_name_2),getString(R.string.attraction_details_2),R.drawable.ic_citycreekcenter));
+        tours.add(new Tour(getString(R.string.attraction_name_3),getString(R.string.attraction_details_3),R.drawable.ic_gilgal));
+        tours.add(new Tour(getString(R.string.attraction_name_4),getString(R.string.attraction_details_4),R.drawable.ic_redbuttegarden));
+        tours.add(new Tour(getString(R.string.attraction_name_5),getString(R.string.attraction_details_5),R.drawable.ic_tabernacle));
+        tours.add(new Tour(getString(R.string.attraction_name_6),getString(R.string.attraction_details_6),R.drawable.ic_templesquare));
+        tours.add(new Tour(getString(R.string.attraction_name_7),getString(R.string.attraction_details_7),R.drawable.ic_capitol));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
